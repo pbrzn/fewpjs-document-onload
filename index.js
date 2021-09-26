@@ -1,5 +1,5 @@
 // Your code goes here
-const p = document.querySelector('p');
+const text = document.getElementById('text');
 document.addEventListener('DOMContentLoaded', function() {
-  p.innerHTML = "This is really cool!";
+  text.innerHTML = "This is really cool!";
 });
